@@ -123,19 +123,27 @@ body{
   padding: 50px 25px;
   width: calc(26% - 20px);
   border-radius: 1px;
-    background: #717171;
-    text-align: center;
-user-select: none;
-cursor: pointer;
-margin-top: 10px;
+  background: #717171;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 10px;
 
   }
   .service:hover{
-    background-color:white;
+    background-color:#717171;
     color: black;
   }
   .box{
     transition: all 0.3s ease;
+  }
+  .box a{
+    color: white;
+    text-decoration: none;
+  }
+  .box a:hover{
+    color: black;
+    text-decoration: none;
   }
   .service:hover .box{
     transform: scale(1.05);
