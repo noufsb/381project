@@ -162,3 +162,8 @@ cursor: pointer;
   .imgframe{
   padding: 10px;
   }
+  .content_overflow{
+    width: 250px;
+  height: 100px;
+  overflow: scroll;
+  }
