@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -28,22 +27,41 @@
        </div>
        <div class="main_content" class="container">
         <div class="maxwidth">
-              <div class="header">services</div>
+            <div class="header"> Manage Appointment  </div>
+     <div class="manageform">
 
-                <div class="manageform">
-                  <form name="addservice" action="">
+<form class="" action="" method="post">
 
-              <label for="">  Service name: <input type="text" class="form-control" placeholder="Service name" aria-label="Servicenamee" aria-describedby="basic-addon1"></label><br>
-                <label for="">  Price: <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="service Price"></label><br>
-                <label for="">brief description:  <textarea class="form-control" aria-label="With textarea" placeholder="brief description about service "></textarea></label><br>
-                    <a href="#" class="moreb"class="button">Add</a>
-                    <a href="services.html" class="moreb"class="button">back</a>
-                </form>
-                </div>
 
-              </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">Service:</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>pet grooming</option>
+                <option>Dog sitting</option>
+                <option>Healthy meals</option>
+                <option>Vaterinary service</option>
+              </select>
+            </div>
+             <div class="form-group col-md-4">
+            <label for="inputState">Date: </label><br>
+            <input type="date" name="AppDate" value=""><br>
+             </div>
+             <div class="form-group col-md-4">
+            <label for="inputState">Time: </label><br>
+            <input type="hour" name="AppDate" value=""><br>
+             </div>
+           <a href="#" class="moreb"class="button">Save</a>
+           <a href="setAvailableApp.html" class="moreb"class="button">back</a>
+</form>
+
+</div>
+
+
+
+
         </div>
-
+       </div>
 
 
 
