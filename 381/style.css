@@ -20,7 +20,7 @@ body{
 .wrapper .sidebar{
   width: 200px;
   height: 100%;
-  background: #1e3527;
+  background: #717171;
   padding: 30px 0px;
   position: fixed;
 }
@@ -51,10 +51,12 @@ body{
 
 .wrapper .sidebar ul li:hover{
   background-color: #ccc9db;
+
 }
 
 .wrapper .sidebar ul li:hover a{
   color: #fff;
+  color: black;
 }
 
 .wrapper .sidebar .social_media{
@@ -76,6 +78,7 @@ body{
   color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+
 }
 
 .wrapper .main_content{
@@ -85,6 +88,12 @@ body{
 }
 
 .wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+.wrapper  .header{
   padding: 20px;
   background: #fff;
   color: #717171;
@@ -122,18 +131,7 @@ body{
   color: white;
 
 }
-.maxwidth h1::after{
-  content:'';
-  color: white;
-  position: absolute;
-  width:170px;
-  height:5px;
-  background:white;
-  bottom:0;
-  left:50%;
-  transform: translateX(-50%);
 
-}
 .content{
   display: flex;
   flex-wrap: wrap;
@@ -144,10 +142,11 @@ body{
   padding: 50px 25px;
   width: calc(26% - 20px);
   border-radius: 1px;
-    background: #7b847373;
+    background: #717171;
     text-align: center;
 user-select: none;
 cursor: pointer;
+
   }
   .service:hover{
     background-color:white;
@@ -167,4 +166,11 @@ cursor: pointer;
     width: 250px;
   height: 100px;
   overflow: scroll;
+  }
+  .wrapper .sidebar .pointer{
+transition: all 0.3s ease;
+  }
+
+  .wrapper .sidebar .pointer:hover {
+    transform: scale(1.05);
   }
