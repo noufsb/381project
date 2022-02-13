@@ -60,7 +60,9 @@ body{
   color: black;
 }
 
-
+dl, ol, ul{
+  margin-top: 22px;
+}
 .wrapper .main_content{
   width: 100%;
   margin-left: 200px;
@@ -210,9 +212,10 @@ margin-top: 20px;
 margin-top: 20px;
 color: white;
 border-color: white;
-width: calc(26% - 20px);
+width: calc(30% - 20px);
 background-color: gray;
     }
+
 
 .requestBox a{
   text-decoration: line;
