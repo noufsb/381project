@@ -225,3 +225,6 @@ background-color: gray;
   text-decoration: line;
   color: white;
 }
+.grid{
+  display: grid;
+}
