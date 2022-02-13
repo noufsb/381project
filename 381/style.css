@@ -50,7 +50,7 @@ body{
   width: 25px;
 }
 
-.wrapper .sidebar ul li:hover{
+.wrapper .sidebar ul li:hover , tr:hover , textarea{
   background-color: #fff;
 
 }
