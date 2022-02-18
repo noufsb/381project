@@ -7,7 +7,7 @@ body{
   max-width: 1500px;
     display: flex;
     flex-direction: column;
-  color:  #ffdeb4;
+  background-color:  #7ea66f69;
 }
   * {
     box-sizing: border-box;
@@ -37,6 +37,9 @@ body{
 main{
   flex-grow: 1;
   padding: 120px 1rem;
+}
+select{
+  width: 100px;
 }
   .navbar{
     background-color: #66825a;
@@ -139,7 +142,7 @@ transition: 0.3s
 
 .information{
   padding: 5em;
-  background-color: wheat;
+  background-color:#66825a99;
 }
 
 .about-us, .paragraph-about-us, .vision, .paragraph-vision{
@@ -187,9 +190,10 @@ left: 84%;
    padding: 16px;
    text-align: center;
    text-size: 20px;
-   background-color:#717171;
+   background-color:#66825a7a;
    width: 50%;
 margin-left: 300px;
+color: #183a1d;
 }
 
 h1{
