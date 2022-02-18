@@ -24,6 +24,7 @@ body{
      max-width: inherit;
      margin: 0px;
      padding: 0px;
+     height: 9vh;
   }
   header{
       top: 0;
@@ -95,7 +96,7 @@ padding: 15px;
 .navbar-item a:hover{
   color:#183a1d;
     display: block;
-    
+
   transform: scale(1.05);
 
 }
