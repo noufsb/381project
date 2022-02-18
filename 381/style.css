@@ -9,7 +9,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 body{
-background:  #fefbe9;
+background:  #7ea66f69;
 }
 
 .wrapper{
@@ -20,7 +20,7 @@ background:  #fefbe9;
 .wrapper .sidebar{
   width: 200px;
   height: 100%;
-  background: #f6c453;
+  background: #66825a;
 
   position: fixed;
 
@@ -38,7 +38,7 @@ background:  #fefbe9;
   border-bottom: 1px solid #bdb8d7;
   border-bottom: 1px solid rgba(0,0,0,0.05);
   border-top: 1px solid rgba(255,255,255,0.05);
-  color: black;
+  color:#183a1d;
 }
 
 .wrapper .sidebar ul li a{
@@ -51,13 +51,12 @@ background:  #fefbe9;
 }
 
 .wrapper .sidebar ul li:hover , tr:hover , textarea{
-  background-color: #fff;
+  background-color:#e1eedd;
 
 }
 
 .wrapper .sidebar ul li:hover a{
-  color: #fff;
-  color: black;
+color:#183a1d;
 }
 
 
@@ -69,33 +68,36 @@ background:  #fefbe9;
 
 .wrapper .main_content .header{
   padding: 20px;
-  background: #e1eedd;
+  background: #66825a7a;
     color: #183a1d;
   border-bottom: 1px solid #e0e4e8;
   font-size: 25px;
 }
 .wrapper  .header{
   padding: 20px;
-  background: #e1eedd;
+  background:  #66825a7a;
   color: #183a1d;
   border-bottom: 1px solid #e0e4e8;
 }
 
 .wrapper .main_content .info{
   margin: 20px;
-  color: #717171;
+  color: #183a1d;
   line-height: 25px;
 }
 
-.wrapper .main_content .info div{
-  margin-bottom: 20px;
-}
+
 
 .container{
   width: 100%;
   height: 100vh;
   padding: 100px 0;
   margin-top: 10px;
+  padding: 10px;
+
+}
+.manageform .container{
+  background-color:  #66825a99;
 }
 .maxwidth {
   max-width:1300px;
@@ -117,7 +119,7 @@ background:  #fefbe9;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  color: white;
+  color: #183a1d;
 }
 .Appcontent{
   display: block;
@@ -126,7 +128,7 @@ background:  #fefbe9;
   padding: 50px 25px;
   width: calc(26% - 20px);
   border-radius: 1px;
-  background: #717171;
+  background: #66825a7a;
   text-align: center;
   user-select: none;
   cursor: pointer;
@@ -134,19 +136,21 @@ background:  #fefbe9;
 
   }
   .service:hover{
-    background-color:#717171;
-    color: black;
+    background-color:#e1eedd;
+    color:#183a1d;
+    position: unset;
   }
   .box{
     transition: all 0.3s ease;
   }
   .box a{
-    color: white;
+    color: #183a1d;
     text-decoration: none;
   }
   .box a:hover{
-    color: black;
+    color: #183a1d;
     text-decoration: none;
+      position: unset;
   }
   .service:hover .box{
     transform: scale(1.05);
@@ -161,14 +165,14 @@ background:  #fefbe9;
   overflow: scroll;
   }
   .wrapper .sidebar .pointer{
-transition: all 0.3s ease;
+     transition: all 0.3s ease;
   }
 
   .wrapper .sidebar .pointer:hover {
     transform: scale(1.05);
   }
   .button {
-     background-color: #71717100;
+     background-color: #66825a;
   	  border-radius: 30px;
     	text-decoration: none;
   	padding: 10px 28px;
@@ -181,17 +185,25 @@ transition: all 0.3s ease;
   color:white;
   text-decoration: none;
                   }
+                  button, select {
+  text-transform: none;
+  width: 100px;
+}
+.p-5 {
+
+  padding: 0px !important;
+}
 
   .moreb {
     border-radius: 3px;
     border-color: black;
-    background-color: gray;
+    background-color:#66825a;
     color: white;
     padding: 5px;
     float: right;
     margin-top: 10px;
     margin-left: 10px;
-    width: 50px;
+    width: 65px;
   }
 
 
@@ -212,20 +224,22 @@ margin-top: 20px;
     .requestBox{
 
 margin-top: 20px;
-color: white;
+color:  #183a1d;
 border-color: white;
 width: calc(30% - 20px);
-background-color: gray;
+background-color:#66825a7a;
 text-align: center;
+margin-left: 350px;
     }
 
 
 .requestBox a{
   text-decoration: line;
-  color: white;
+  color:  #183a1d;
 }
 .grid{
   display: grid;
+color: #183a1d;
 }
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
   width: 100%;
