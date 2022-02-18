@@ -116,7 +116,7 @@ background-color: #fff;
 transition: 0.3s
 }
  .main-section{
-   background: rgba(0, 0, 0, 0.45)url(Dogs.jpg);
+   background: rgba(0, 0, 0, 0.7)url(Dogs.jpg);
      background-size: auto;
    height: 800px;
    background-size: cover;
