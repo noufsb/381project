@@ -1,32 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 
-.container {
-  position: relative;}
 
+body{
+
+  max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+  color:  #ffdeb4;
+}
   * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+     width: 100%;
+     max-width: 1500px;
+     margin: 0px;
+    padding: 0px;
     font-size: 16px;
-    color: white;
-  }
-  .header{
-    
 
   }
+  header,footer{
+     position: fixed;
+     width: inherit;
+     max-width: inherit;
+     margin: 0px;
+     padding: 0px;
+  }
+  header{
+      top: 0;
 
+
+  }
+  footer{
+
+    bottom: 0;
+  }
+main{
+  flex-grow: 1;
+  padding: 120px 1rem;
+}
   .navbar{
-    background-color: #717171;
+    background-color: #f6c453;
     width: 100%;
     height: 100px;
+}
 
-
-  }
 
   .navbar-logo-header{
     position: absolute;
-    margin-left: 94%;
+  margin-left: 92%;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
   }
   .navbar-logo-footer{
     position: absolute;
@@ -55,7 +79,7 @@ transition: all 0.3s ease;
 
 padding: 15px;
 
-border-bottom: 1px solid rgba(0,0,0,0.05);
+
 
 
 }
@@ -91,11 +115,12 @@ display: block;
 background-color: #fff;
 transition: 0.3s
 }
-.main-section{
-  text-align: left;
-  width: 100%;
-  background-image: url(Dogs.jpg);
-  padding-bottom: 300px;
+ .main-section{
+   background: rgba(0, 0, 0, 0.45)url(Dogs.jpg);
+     background-size: auto;
+   height: 800px;
+   background-size: cover;
+   background-blend-mode: darken;
 }
 
 .main-text{
@@ -135,7 +160,8 @@ transition: 0.3s
 
 .footer{
   padding: 20px;
-  background-color: #717171;
+background-color: #f6c453;
+width: 100%;
 }
 
 .footer-rights{
@@ -145,7 +171,7 @@ transition: 0.3s
 
 .footer .social{
   position: absolute;
-left: 85%;
+left: 84%;
 }
 
 
@@ -163,7 +189,8 @@ left: 85%;
    text-align: center;
    text-size: 20px;
    background-color:#717171;
-   background-position: center;
+   width: 50%;
+margin-left: 300px;
 }
 
 h1{
