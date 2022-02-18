@@ -95,7 +95,9 @@ padding: 15px;
 .navbar-item a:hover{
   color:#183a1d;
     display: block;
+    
   transform: scale(1.05);
+
 }
 
 .navbar-item a:hover tr:hover{

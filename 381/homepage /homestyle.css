@@ -89,6 +89,7 @@ padding: 15px;
 .navbar-item a{
   color: #fff;
   display: block;
+  width: 30px;
   text-decoration: none;
 }
 .navbar-item a:hover{
