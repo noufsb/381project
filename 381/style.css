@@ -9,7 +9,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 body{
-color:  #ffdeb4;
+background:  #fefbe9;
 }
 
 .wrapper{
@@ -20,7 +20,7 @@ color:  #ffdeb4;
 .wrapper .sidebar{
   width: 200px;
   height: 100%;
-  background: #717171;
+  background: #f6c453;
 
   position: fixed;
 
@@ -69,15 +69,15 @@ color:  #ffdeb4;
 
 .wrapper .main_content .header{
   padding: 20px;
-  background: #fff;
-  color: #717171;
+  background: #e1eedd;
+    color: #183a1d;
   border-bottom: 1px solid #e0e4e8;
   font-size: 25px;
 }
 .wrapper  .header{
   padding: 20px;
-  background: #fff;
-  color: #717171;
+  background: #e1eedd;
+  color: #183a1d;
   border-bottom: 1px solid #e0e4e8;
 }
 
@@ -104,7 +104,7 @@ color:  #ffdeb4;
 }
 .maxwidth h1 {
   text-align: center;
-  position: relative;
+
   font-size: 50px;
   font-weight: 500;
   margin-bottom:50px;
@@ -205,7 +205,7 @@ transition: all 0.3s ease;
       color: black;
     }
     .manageform{
-      color: #717171;
+    color: #183a1d;
 font-weight: bold;
 margin-top: 20px;
     }
