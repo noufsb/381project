@@ -98,6 +98,7 @@ color:#C69797;
 }
 .manageform .container{
   background-color: #FFEBE7;
+  padding: 50px;
 }
 .maxwidth {
   max-width:1300px;
@@ -156,6 +157,8 @@ color:#C69797;
   }
   .imgframe{
   padding: 10px;
+  width: 70px;
+height: 70px;
   }
   .content_overflow{
     width: 250px;
@@ -170,7 +173,7 @@ color:#C69797;
     transform: scale(1.05);
   }
   .button {
-     background-color: #66825a;
+     background-color: #C69797;
   	  border-radius: 30px;
     	text-decoration: none;
   	padding: 10px 28px;
