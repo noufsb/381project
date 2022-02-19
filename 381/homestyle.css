@@ -7,7 +7,7 @@ body{
   max-width: 1500px;
     display: flex;
     flex-direction: column;
-  background-color:  #7ea66f69;
+  background-color:  #DBA09F63;
   min-height: 100vh;
 }
   * {
@@ -45,7 +45,7 @@ select{
   width: 100px;
 }
   .navbar{
-    background-color: #66825a;
+    background-color: #FFC0BE;
     width: 100%;
     height: 100px;
 }
@@ -96,7 +96,7 @@ padding: 15px;
   text-decoration: none;
 }
 .navbar-item a:hover{
-  color:#183a1d;
+  color:#C69797;
     display: block;
 
   transform: scale(1.05);
@@ -147,12 +147,12 @@ transition: 0.3s
 
 .information{
   padding: 5em;
-  background-color:#66825a99;
+  background-color:#ffd4d4;
 }
 
 .about-us, .paragraph-about-us, .vision, .paragraph-vision{
   text-align: center;
-  color: white;
+  color: #C69797;
 }
 
 .about-us , .vision{
@@ -167,7 +167,7 @@ transition: 0.3s
 
 .footer{
   padding: 20px;
-background-color: #66825a;
+background-color: #FFC0BE;
 width: 100%;
 }
 
@@ -195,11 +195,28 @@ left: 84%;
    padding: 16px;
    text-align: center;
    text-size: 20px;
-   background-color:#66825a7a;
+   background-color:#FFEBE7;
    width: 50%;
-margin-left: 300px;
-color: #183a1d;
+   margin-left: 300px;
+   color:#C69797;
+        }
+       .container-login a{
+color: #C69797;
 }
+
+.container-login a:hover{
+color: #C69797;
+}
+
+
+.container-forget-password a{
+color: #C69797;
+}
+
+.container-forget-password a:hover{
+color: #C69797;
+}
+
 
 h1{
   padding-top: 80px;
