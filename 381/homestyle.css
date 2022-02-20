@@ -131,7 +131,7 @@ transition: 0.3s
 }
 
 .main-text{
-  color: white;
+  color:#ffd4d4;
   padding-left: 100px;
   padding-top: 200px;
   font-size: 25px;
@@ -159,6 +159,11 @@ transition: 0.3s
   font-size: 2em;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+.uplodphoto{
+  text-align: center;
+margin-top: 10px;
+}
 }
 
 .paragraph-about-us, .paragraph-vision{
