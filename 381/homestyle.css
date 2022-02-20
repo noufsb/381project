@@ -231,7 +231,14 @@ h1{
 .register-form p , label{
   padding-bottom: 10px;
 }
-
+.gg{
+  position: absolute;
+bottom: 8px;
+font-size: 15px;
+right: 145px;
+color: white;
+}
+}
 input[type=text], input[type=password] {
   width: 30%;
   border-radius: 5px 5px 5px 5px;

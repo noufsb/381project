@@ -264,12 +264,12 @@ table{
   caption-side: top;
   margin-top: 3mm;
   text-align: center;
-  color: #183a1d;
+  color: #C69797;
   box-shadow: 0 5px 10px  rgb(146, 140, 140);
 }
 table a{
   text-decoration: none;
-  color: #183a1d;
+  color: #C69797;
 }
 thead{box-shadow: 0 5px 10px rgb(146, 140, 140) ;}
 th,td{ padding: 0.2rem 1rem ;
@@ -290,11 +290,11 @@ th,td{ padding: 0.2rem 1rem ;
 
     .approved{ background-color: rgb(174, 218, 174);}
 
-tr:hover{background-color:#66825a7a}
+tr:hover{background-color:#FFEBE7;}
 
 /* feedBack css */
   .feedbackBody {
-      background-color: #66825a;
+      background-color: #DBA09F63;
       font-family: "Monserrat", sans-serif;
       display: flex;
       justify-content: center;
@@ -303,8 +303,8 @@ tr:hover{background-color:#66825a7a}
     }
 
     .panel-container {
-      background-color: #e1eedd;;
-      box-shadow: 0 0 10px #66825a;
+      background-color: #FFEBE7;
+      box-shadow: 0 0 10px #C4A19A;
       border-radius: 4px;
       font-size: 90%;
       display: flex;
@@ -341,7 +341,7 @@ tr:hover{background-color:#66825a7a}
     .rating.active,
     .rating:hover {
       border-radius: 4px;
-      box-shadow: 0 0 10px #66825a;
+      box-shadow: 0 0 10px #DBA09F63;
     }
 
     .rating img {
